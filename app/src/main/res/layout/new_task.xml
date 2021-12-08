@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/edt_newTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:hint="Thêm nhiệm vụ"
+        />
+    <Button
+        android:id="@+id/btn_addTash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_newTask"
+        android:layout_alignParentEnd="true"
+        android:text="Xong"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:background="@android:color/transparent"
+        />
+
+</RelativeLayout>
